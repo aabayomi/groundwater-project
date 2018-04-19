@@ -1,0 +1,104 @@
+/* Header */
+header{
+  background: #353637;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #32a0c2 3px solid;
+}
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float: left;
+}
+header #branding h1{
+  margin: 0;
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+header .highlight, header .current a{
+  color: #32a0c2;
+  font-weight: bold;
+}
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+
+#d3 {
+	border: 1px solid grey;
+}
+
+h1, p {
+	margin: 20px;
+}
+
+text {
+  font: bold 48px monospace;
+}
+
+.enter {
+  fill: green;
+}
+
+.update {
+  fill: darkblue;
+}
+
+.exit {
+  fill: brown;
+}
+
+
+.selector {
+    background: black;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    float: left;
+    margin-right: 10%;
+    clear:both;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 140px;
+  height: 70px;
+  padding: 1px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.legend {
+  font-size: 12px;
+  float:left;
+  margin-right: 1em;
+}
+
+
+.styled-select dropdown {
+   background: transparent;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+   float:right;
+}
+

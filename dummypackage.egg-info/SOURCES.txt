@@ -1,0 +1,8 @@
+README.md
+setup.py
+dummypackage/__init__.py
+dummypackage/dummy_model.py
+dummypackage.egg-info/PKG-INFO
+dummypackage.egg-info/SOURCES.txt
+dummypackage.egg-info/dependency_links.txt
+dummypackage.egg-info/top_level.txt

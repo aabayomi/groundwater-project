@@ -1,0 +1,107 @@
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  color: #fff;
+  background-color: #DD4814; 
+}
+.nav-pills>li>a {
+  color: #DD4814;
+}
+
+.navbar-inverse {
+  background-color: #800080;
+  border-color: #333;
+}
+
+.navbar-inverse .container .navbar-header .navbar-brand> a{
+/*color: #FFFF00;*/
+color: #FFFFFF;
+}
+
+.navbar-inverse .container .navbar-header > nav> ul > a{
+   /*color: #fbfbfb;*/
+
+   color: #FFFF00;
+   display:inline;
+   /*display:block;*/
+   /*float:right; */
+   /*padding:0px 100px;*/
+   padding:20px 50px;
+
+}
+
+.navbar-header  nav{
+  width: 100%
+
+}
+
+.navbar a.navbar-brand {
+  color: #fbfbfb;
+  text-decoration: none;
+}
+
+
+
+
+
+body {
+  font-family:  10px Ubuntu, "times new roman", times, roman, serif;
+}
+
+
+
+/*body {
+  font: 10px sans-serif;
+}*/
+
+.axis path,
+.axis line, 
+.axis1 path,
+.axis1 line {
+  fill: none;
+  stroke: #E6E7E8;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path, .x.axis1 path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke-width: 1.5px;
+}
+
+.legend-box {
+  cursor: pointer;  
+}
+
+#mouse-tracker {
+  stroke: #E6E7E8;
+  stroke-width: 1px;
+}
+
+.hover-line { 
+  stroke: #E6E7E8;
+  fill: none;
+  stroke-width: 1px;
+  left: 10px;
+  shape-rendering: crispEdges;
+  opacity: 1e-6;
+}
+
+.hover-text {
+  stroke: none;
+  font-size: 30px;
+  font-weight: bold;
+  fill: #000000;
+}
+
+.tooltip {
+  font-weight: normal;
+}
+
+.brush .extent {
+  stroke: #FFF;
+  shape-rendering: crispEdges;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include "tab.html" %}
+</head>
+ <!--<link rel="stylesheet" type="text/css" href="static/map.css">-->
+    <body>
+        <select onchange="Update()"  id="dropdown" style="margin-left: 10px;">
+            
+            <!--<select id ="dropdown">
+            <option value="income" data ="income" data-type="csv" selected="selected">income</option>
+            <option value="poverty">poverty</option>-->
+            <!--<option selected="selected"> income</option>-->
+            <!--<option> poverty</option>
+            <option> income</option>-->
+            <option> 2017</option>
+            <option> 2016</option>
+            <option> 2015</option>
+            <option> 2014</option>
+            <option> 2013</option>
+            <option> 2012</option>
+            <option> 2011</option>
+            <option> 2010</option>
+            <option> 2009</option>
+            <option> 2008</option>
+            <option> 2007</option>
+            <option> 2000</option>
+        </select>
+
+             <div class="columns">
+                    <svg class="income" width="960" height="580"></svg>
+                    <!--<svg width="960" height="720"></svg>-->
+            </div>
+
+    
+
+<footer>
+      <p class="subtitle is-5 has text-centered">Created by Cooperative Agricultural Research Center,Copyright &copy; 2018 </p>
+</footer>
+       
+
+ </body>
+
+</html>
+

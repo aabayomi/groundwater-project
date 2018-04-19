@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Texas Groundwater Data-visualization</title>
+
+        <link rel="style" type="text/css" href="https//cdnjs.cloudflare.com/ajax/libs/bulma/0.3.2/css/bulma.min.css">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <script src="https://d3js.org/topojson.v2.min.js"></script>
+        <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+        
+
+        <script type="text/javascript" src="js/ny.js"></script>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta name="description" content="Groundwater analytics">
+        <meta name="keywords" content="Groundwater, analytics,satellite">
+        <meta name="author" content=" Abayomi Adekanmbi">
+        <style type = "text/css"> 
+        #line { position: absolute; top: 10% ;right: 10%;left: 15%}
+        
+        </style>
+
+    </head>
+
+    <body>
+
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <!--<img src="PVAMU.gif" width="100" height="100">-->
+                 <h1 style="text-align:center">Prairie View A & M University</h1>
+                 <img src="PVAMU.gif" width="100" height="100">
+
+                 <!--<h1> A web-based tool to monitor and visualize groundwater storage in texas</h1>-->
+                </div>
+        </header>
+        <section id="showcase">
+            <div class="container">
+                
+            <div id ="line"><h1 style="text-align:center"> A web-based tool to monitor and visualize groundwater storage in texas</h1></div>
+            </div>
+        </section>
+
+
+
+
+
+        <select onchange="Update()"  id="dropdown" style="margin-right: 10px;">
+            
+            <!--<select id ="dropdown">
+            <option value="income" data ="income" data-type="csv" selected="selected">income</option>
+            <option value="poverty">poverty</option>-->
+            <!--<option selected="selected"> income</option>-->
+            <!--<option> poverty</option>
+            <option> income</option>-->
+            <option> 2017</option>
+            <option> 2016</option>
+            <option> 2015</option>
+            <option> 2014</option>
+            <option> 2013</option>
+            <option> 2012</option>
+            <option> 2011</option>
+            <option> 2010</option>
+            <option> 2009</option>
+            <option> 2008</option>
+            <option> 2007</option>
+            <option> 2000</option>
+
+
+        </select>
+
+        <!--<div class="container">
+            <div id="branding">
+            <img src="PVAMU.gif" width="100" height="100">
+      </div>
+    -->
+
+
+    <!--<nav>
+        <ul>
+          <li class="current"> <a href="index.html">Home </a></li>
+          <li> <a href="about.html">About </a></li>
+          <li> <a href="contact.html">Contact </a></li>
+          <li> <a href="resources.html">Resources </a></li>
+
+        </ul>
+      </nav>-->
+
+<!--<div id = "tooltipc">
+        <h3><span id = "County">&nbsp;</span></h3>
+        <h5><span id = "datum">&nbsp;</span></h5>
+    </div>-->
+
+
+
+
+             <div class="columns">
+                <div class="column is-half">
+                    <svg class="income" width="960" height="600"></svg>
+                    <!--/<svg width="960" height="720"></svg>-->
+               </div>
+            </div>
+
+
+        <!--<p class="subtitle is-5 has text-centered">Created by abayomi</p>-->
+        <p class="subtitle is-5 has text-centered">Created by Cooperative Agricultural Research Center </p>
+
+      </div>
+ </body>
+
+</html>
+
