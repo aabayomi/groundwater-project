@@ -10,8 +10,8 @@ def read(fname):
 
 setup(
     name="dummypackage",
-    description="Python application example",
-    author="Rodrigo Agundez",
+    description="Python application",
+    author="Abayomi",
     packages=find_packages(),
     long_description=read('README.md'),
 )
